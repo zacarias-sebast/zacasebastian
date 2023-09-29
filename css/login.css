@@ -1,0 +1,127 @@
+
+
+body{
+    margin: 0;
+}
+
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1{
+    color: #77ffc0;
+    text-transform: uppercase;
+
+}
+
+.right-login{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: #2f2841;
+    border-radius: 20px;
+    box-shadow:  0px 10px 40px #00000056;
+
+}
+
+.card-login > h1{
+    color: #00ff88;
+    font-weight: 800;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow:  0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;   
+}
+
+.textfield > label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color: #f0ffff94;
+}
+
+.btn-login{
+    width: 16rem;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+    font-weight: 8px;
+    box-sizing: border-box;
+}
+
+.btn-login:hover{
+    color: green;
+}
+.last-login{
+   
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.last-login > h1{
+    color: #77ffc0;
+    text-transform: uppercase;
+}
+
+.left-login-image{
+    width: 30vw;
+    border: none;
+    border-radius: 30px 10px;
+}
+
+
